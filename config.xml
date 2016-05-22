@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "com.phonegap.Bullying"
+	version     = "1.0.0">
+	
+  <!--versionCode es opcional and Android only-->
+  
+  <name>Geolocalizacion</name><!--Nombre de la app-->
+  
+  <description>
+   App para ejemplificar la geolicalizacion
+  </description>
+  
+  <preference name="phonegap-version" value="3.7.0"/>
+  
+  <preference name"target-device"       value="universal"/>
+  <preference name"fullscreen"       value="true"/>
+  <preference name"android-installLocation"       value="auto"/>
+  
+  <!--plugins-->
+  
+  <!--Core plugins-->
+ 
+  <plugin name"org.apache.cordova.geolocation" spec="0.3.12" source="pgb"/>
+
+    <!-- third party plugins-->
+<icon src="res/android/mdpi.png"/>
+</widget>
